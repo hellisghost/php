@@ -1,13 +1,13 @@
 <?php
 
-// $a=4; $b=3;
-// //forma 1
+$a=4; $b=3;
+//forma 1
 
-// if($a > $b):
-//     echo "A es mayor que b";
-// endif;
+if($a > $b):
+    echo "A es mayor que b";
+endif;
 
-// //la respuesta es en dolares precio de los computadores, segundo datos a comprar 
+//la respuesta es en dolares precio de los computadores, segundo datos a comprar 
 
 $valorcomputadores = 700;
 $cantidadcomputadores = 4;
@@ -54,6 +54,7 @@ endif;
 </form>
 
 <?php
+echo "<br>";
 // ejercicio 1
 $numero = $_REQUEST['numero'];
 
@@ -85,9 +86,10 @@ echo "<br>";
 ?>
 
 <?php
+echo "<br>";
 
 //ejercicio 3
-$usuario = 3;
+$usuario = 8;
 $semana = ["lunes","martes","miercoles","jueves","viernes","sabado","domingo"];
 $numeros = [1,2,3,4,5,6,7];
 
@@ -116,6 +118,10 @@ elseif($numeros[5] == $usuario) {
 }
 elseif($numeros[6] == $usuario) {
     echo $semana[6];
+}
+
+elseif($usuario > 7) {
+    echo "numero invalido";
 }
 
 ?>
