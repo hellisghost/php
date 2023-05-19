@@ -1,5 +1,5 @@
 <?php
-echo "ejercicio 1", "<br>";
+echo "ejercicio prueba", "<br>";
 echo "<br>";
 
 $a=4; $b=3;
@@ -51,23 +51,30 @@ endif;
 ?>
 
 <form action="if.php">
-    <h4>ejercicio 2</h4>
+    <h4>ejercicio prueba2</h4>
   <p>Nombre: <input type="text" name="numero"></p>
   <p><input type="submit" value="Enviar"></p>
 </form>
 
 <?php
-echo "ejercicio 3", "<br>";
+echo "ejercicio 1", "<br>";
 
 echo "<br>";
 // ejercicio 1
-$numero = $_REQUEST['numero'];
 
-if ($numero >= 10):
-echo "el numero ingresado es ".$numero;
-else:
-echo "el numero es menor que 10";
-endif;
+$numero = 19;
+$numero1 = 10;
+
+if($numero===$numero1){
+    echo "es igual a 10";
+}
+elseif($numero1 < $numero){
+    echo "es menor a 10";
+}
+elseif($numero > $numero1){
+    echo "es mayor a 10";
+}
+
 
 echo "<br>";
 echo "<br>";
@@ -76,7 +83,7 @@ echo "<br>";
 
 <?php
 
-echo "ejercicio 4", "<br>";
+echo "ejercicio 2", "<br>";
 echo "<br>";
 
 $nombre = "maria" ;
@@ -92,7 +99,7 @@ echo "<br>","<br>";
 ?>
 
 <?php
-echo "ejercicio 5", "<br>";
+echo "ejercicio 3", "<br>";
 echo "<br>";
 
 //ejercicio 3
@@ -135,21 +142,38 @@ elseif($usuario > 7) {
 
 
 
+<?php
+echo "ejercicio 4", "<br>";
+echo "<br>";
+
+$edad = 17;
+$licencia = "si";
+
+if($edad >= 18){
+    echo "¿tiene licencia para conducir";
+    echo "<br>";
+    echo "\n $licencia";
+    echo "<br>";
+
+if($licencia == "si"){
+    echo "puedes conducir";
+}
+}if($licencia == "no"){
+    echo "debes obtener una licencia primero";
+}
+elseif($edad < 18){
+    echo "no puedes conducir";
+}
+
+?>
+
+<?php
+echo "ejercicio 5", "<br>";
+echo "<br>";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+?>
 
 
 
