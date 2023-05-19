@@ -1,4 +1,6 @@
 <?php
+//escribe un programa que tome un numero entero como entrada y muestre un mensaje diferente dependiendo de si el numero es 1,2, 0 3 utilizando el ciclo "match".
+
 echo "ejercicio 1", "<br>", "<br>";
 
 $numero = 1;
@@ -19,6 +21,8 @@ echo $resultado
 ?>
 
 <?php
+//crea un programa que recibe el nombre de un color como entrada y muestre un mensaje diferente segun el color utilizando el ciclo "macht".
+
 echo "<br>", "<br>";
 echo "ejercicio 2";
 echo "<br>", "<br>";
@@ -39,6 +43,9 @@ echo $fin
 ?>
 
 <?php
+//deseña un programa qu etome una letra de entrada y muestre un mensaje segun la categoria a la que pertenezca la letra utilizando el siclo vocal o consonante
+
+
 echo "<br>", "<br>";
 echo "ejercicio 3";
 echo "<br>", "<br>";
@@ -57,6 +64,8 @@ echo  $quees;
 
 
 <?php
+//diseña un priograma que tome una fecha como entrada en formato dia mes año y muestre u mensaje diferente por el mes que se coloque
+
 echo "<br>", "<br>";
 echo "ejercicio 4";
 echo "<br>", "<br>";
@@ -77,6 +86,8 @@ echo $dia
 
 
 <?php
+//escribe un programa que tome un numero del 1 al 7 como entrada y muestre el nombre del dia de la semana correspondiente utilizando el ciclo "macht"
+
 echo "<br>", "<br>";
 echo "ejercicio 5"; 
 echo "<br>", "<br>";
@@ -108,6 +119,8 @@ echo $resultado
 
 
 <?php
+//crea un programa que reciba un numero del 1 al 12 como entrada y muestre el nombre del mes correspondiente utilizando el ciclo match
+
 echo "<br>", "<br>";
 echo "ejercicio 6"; 
 echo "<br>", "<br>";
@@ -149,6 +162,9 @@ echo $resultado
 
 
 <?php
+//desaña un programa qu etome nota del 0 al 100 y que al momento de una nota elevada que de en excelente 
+
+
 echo "<br>", "<br>";
 echo "ejercicio 7"; 
 echo "<br>", "<br>";
@@ -170,6 +186,13 @@ echo $resultado;
 
 
 <?php
+
+/* 8. Desarrolla un programa que tome una cadena de texto como entrada y
+muestre un mensaje según la longitud de la cadena utilizando el ciclo `match`.
+Por ejemplo, si la longitud es mayor a 10 caracteres, mostrar "La cadena es
+larga". */
+
+
 echo "<br>", "<br>";
 echo "ejercicio 8"; 
 echo "<br>", "<br>";
@@ -187,6 +210,11 @@ echo $resultado;
 ?>
 
 <?php
+
+/* 9. Escribe un programa que tome una hora en formato "HH:MM" como entrada y
+muestre un mensaje diferente según la franja horaria utilizando el ciclo `match`. */
+
+
 echo "<br>", "<br>";
 echo "ejercicio 9"; 
 echo "<br>", "<br>";
@@ -194,18 +222,12 @@ echo "<br>", "<br>";
 $numero = "11:00";
 
 $resultado = match (true){
-    $numero === "01:00" => "una de la madrugada",
-    $numero === "02:00" => "dos de la madrugada",
-    $numero === "03:00" => "tres de la madrugada ",
-    $numero === "04:00" => "cuatro de la madrugada",
+    $numero === "01:00" => "las dos en caracas",
+    $numero === "02:00" => "las nueve en madrid",
+    $numero === "03:00" => "las cuatro en miami ",
+    $numero === "04:00" => "las diez en las palmas de gc",
     $numero === "05:00" => "cinco de la madrugada",
-    $numero === "06:00" => "seis de la mañana",
-    $numero === "07:00" => "siete de la mañana",
-    $numero === "08:00" => "ocho de la mañana",
-    $numero === "09:00" => "nueve de la mañana",
-    $numero === "10:00" => "diez de la mañana",
-    $numero === "11:00" => "once de la mañana",
-    $numero === "12:00" => "doce de la tarde",
+    $numero === "11:00" => "son las 1 de la mañana en tokio",
     default => " no es una vocal ni una consonante"
 };
 
@@ -215,6 +237,11 @@ echo $resultado;
 
 
 <?php
+
+/* 10. Crea un programa que reciba una opción del 1 al 5 como entrada y realice una
+acción diferente según la opción utilizando el ciclo `match`. */
+
+
 echo "<br>", "<br>";
 echo "ejercicio 10"; 
 echo "<br>", "<br>";
