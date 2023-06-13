@@ -1,0 +1,19 @@
+entero base
+entero altura
+entero area, perimetro
+
+
+inicio 
+	escriba "cual es la base del rectangulo"
+	lea base
+	llamar nueva_linea
+	escriba "cual es la altura del rectangulo"
+	lea altura
+	llamar nueva_linea
+	perimetro <- (base * 2)+(altura * 2)
+	llamar nueva_linea
+	area <- base * altura
+	escriba "el perimetro del rectangulo es de ", perimetro
+	llamar nueva_linea
+	escriba "el area del perimetro es de ", area
+fin

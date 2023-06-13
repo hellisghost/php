@@ -1,0 +1,14 @@
+entero total,descuento,pago
+cadena [25] nombre
+
+inicio
+escriba "escribe tu nombre y apellidos"
+llamar nueva_linea
+lea nombre
+escriba "escribe el total de tu sueldo"
+llamar nueva_linea
+lea total
+llamar nueva_linea
+descuento <- total + (total*0.10)
+escriba "hola",nombre,"tu sueldo aumento ",descuento," el aumento fue del 15%"
+fin

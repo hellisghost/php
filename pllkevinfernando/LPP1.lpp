@@ -1,0 +1,13 @@
+cadena [25] nombre
+cadena [25] apellido
+inicio
+escriba "escriba tu nombre"
+llamar nueva_linea
+lea nombre
+llamar nueva_linea
+escriba "escribe tus apellidos"
+llamar nueva_linea
+lea apellido
+escriba "BIENVENIDO ",nombre," ",apellido
+
+fin

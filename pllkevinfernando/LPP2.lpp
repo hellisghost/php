@@ -1,0 +1,14 @@
+entero numero1,numero2
+entero suma
+inicio
+escriba "escribe tus numeros"
+llamar nueva_linea
+lea numero1
+lea numero2
+llamar nueva_linea
+escriba "el primer numero fue ",numero1," el segundo numero fue ",numero2
+llamar nueva_linea
+suma <- (numero1+numero2)
+llamar nueva_linea
+escriba "la sumas de estos dos numeros es ",suma
+fin

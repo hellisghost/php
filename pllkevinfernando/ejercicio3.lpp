@@ -1,0 +1,10 @@
+entero descuento, total
+entero compra
+
+inicio
+	escriba "el costo de la prenda es de"
+	lea compra
+	llamar nueva_linea
+	total <- compra - (compra * 0.15)
+	escriba "el costo total por la prenda es de  ", total, " con el 15% de descuento"
+fin

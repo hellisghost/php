@@ -1,0 +1,26 @@
+entero parciales, nota, nota2, nota3
+entero examen
+entero trabajo
+real total
+
+inicio
+	escriba "escriba sus parciales"
+	llamar nueva_linea
+	lea nota
+	lea nota2
+	lea nota3
+	llamar nueva_linea
+	parciales <- (nota + nota2 + nota3) / 3
+	llamar nueva_linea
+	escriba "total de parciales es de ", parciales
+	llamar nueva_linea
+	llamar nueva_linea
+	escriba "escriba su examen final"
+	lea examen
+	llamar nueva_linea
+	escriba "escriba su examen trabajo final"
+	lea trabajo
+	llamar nueva_linea
+	total <- (parciales * 0.55)+(examen * 0.3)+(trabajo * 0.15)
+	escriba "la calificacion final de las notas es de ", total
+fin

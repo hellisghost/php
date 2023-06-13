@@ -18,7 +18,7 @@ $pregunta = readline("Pregunta lo que desea buscar");
 
 for($i = 0; $i == 3; $i++){
     for ($j = 0; $j == $Var1[$i]; $j++) { 
-        if ($pregunta == $Var1[$j]) {
+        if ($pregunta == $Var1[$i][$j]) {
             echo "Objeto encontrado";
         }else {
             echo "objeto no encontrado";

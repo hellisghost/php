@@ -1,0 +1,11 @@
+entero fahrenheit, celsius
+entero total
+
+inicio
+	escriba "a que grados fahrenheit esta"
+	lea fahrenheit
+	llamar nueva_linea
+	total <- (fahrenheit - 32)* 5 / 9
+	llamar nueva_linea
+	escriba "el resultado en grados celsius es de ", total
+fin
