@@ -1,0 +1,24 @@
+entero resistencia1, resistencia2, total
+
+inicio 
+
+escriba "Ingrese el valor de la primer resistencia"
+llamar nueva_linea
+lea resistencia1
+llamar nueva_linea
+
+escriba "Ingrese el valor de la segunda resistencia"
+llamar nueva_linea
+lea resistencia2
+llamar nueva_linea
+
+total <- (resistencia1*resistencia2)/(resistencia1+resistencia2)
+
+escriba "La resistencia equivalente en paralelo es ", total
+fin
+
+total <- -numero2 -^(numero2**2 - 4*numero1*numero3) / 2*numero1
+
+numero2 = 9
+numero1 = 3
+numero3 = 5
