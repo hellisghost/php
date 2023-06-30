@@ -1,0 +1,16 @@
+entero dato1, dato2
+
+inicio
+escriba "ingrese el primer numero"
+llamar nueva_linea
+lea dato1
+llamar nueva_linea
+escriba "ingrese el segundo dato"
+lea dato2
+llamar nueva_linea
+si dato1 > dato2 entonces
+escriba dato1, " el primer numero es el mayor"
+sino
+escriba dato2, " el segundo dato es el mayor"
+fin si
+fin

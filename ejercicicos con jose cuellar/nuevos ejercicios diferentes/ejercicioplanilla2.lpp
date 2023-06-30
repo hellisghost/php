@@ -1,0 +1,18 @@
+entero nota1, nota2, nota3
+inicio
+escriba "escriba la primera nota: "
+lea nota1
+llamar nueva_linea
+escriba "escriba la segunda nota: "
+lea nota2
+llamar nueva_linea
+escriba "escriba la tercera nota: "
+lea nota3
+llamar nueva_linea
+promedio <- (nota1 + nota2 + nota3)/3
+si promedio > 69 entonces
+	escriba "su promedio es de: ",promedio," usted aprobo"
+	sino
+	escriba "su promedio es de: ",promedio," perdio españa le van a dar juete por puto jajajaja"
+	fin si
+fin
